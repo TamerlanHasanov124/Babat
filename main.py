@@ -19,6 +19,6 @@ def Click():
 root = Tk()
 root.geometry("500x500")
 root.title("Pencere")
-btn = Button(text="Click me!",command=Click)
+btn = Button(text="Click me!",command=Click,fg="red")
 
 root.mainloop()
